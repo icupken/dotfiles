@@ -354,9 +354,9 @@ type = internal/date
 
 interval = 1.0
 
-date = %A, %d %B
+date = %d.%m.%Y
 
-time = "- %H:%M:%S"
+time = "%H:%M:%S -"
 time-alt =
 
 format = <label>
@@ -364,7 +364,7 @@ format-prefix = " "
 format-prefix-font = 2
 format-prefix-foreground = ${color.RED}
 
-label = %date% %time%
+label = %time% %date%
 
 [module/clock]
 

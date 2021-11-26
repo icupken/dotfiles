@@ -5,7 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+alias exa='exa -hl'
+alias update='sudo pacman -Syu --noconfirm'
+
 
 #make st nice
 alias load="kill -USR1 $(pidof st)"
@@ -15,5 +17,6 @@ PS1='[\u@\h \W]\$ '
 
 
 export PATH="~/.local/bin:$PATH"
+export PATH=$PATH:/path/to/driver/chrome-driver
+export PICO_SDK_PATH=../pico-sdk
 source "$HOME/.cargo/env"
-eval "$(starship init bash)"

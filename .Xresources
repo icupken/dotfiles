@@ -11,8 +11,8 @@ Xft.lcdfilter:	lcddefault
 st.alpha: 1 
 
 ! inner padding
-st.borderpx:     0
-st.font:         Iosevka Nerd Font:style:medium:pixelsize=17
+st.borderpx:    0
+st.font:        Iosevka Nerd Font:style:medium:pixelsize=18
 
 !! Colors
 
