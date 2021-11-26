@@ -35,6 +35,5 @@ fi
 
 xsetroot -cursor_name left_ptr
 setxkbmap -layout us,ru -option grp:alt_shift_toggle
-export AWT_TOOLKIT=MToolkit
 sxhkd &
 exec bspwm
