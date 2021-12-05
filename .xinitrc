@@ -32,7 +32,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-
+export _JAVA_AWT_WM_NONREPARENTING=1
 xsetroot -cursor_name left_ptr
 setxkbmap -layout us,ru -option grp:alt_shift_toggle
 sxhkd &
