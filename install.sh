@@ -14,4 +14,7 @@ mkdir -p ~/.local/share/
 cp -r fonts ~/.local/share/
 cp .xinitrc ~/
 cp .bashrc ~/
+git clone https://github.com/siduck/st.git
+cd st
+sudo make install
 echo "Instalation end."
