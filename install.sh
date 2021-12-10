@@ -4,7 +4,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
 cd ..
-rm -rf yay
 echo "Yay installed."
 
 # ------bspwm install----------
@@ -14,9 +13,9 @@ echo "Yay installed."
 
 # ------xfce4 install----------
 sudo pacman -S alsa-utils fd nvidia ntfs-3g gvfs rofi sxhkd firefox xorg xorg-xinit pulseaudio ttf-jetbrains-mono \
-pavucontrol ttf-iosevka-nerd exa xfce4 xfce4-pulseaudio-plugin xfce4-weather-plugin --noconfirm
+pavucontrol ttf-iosevka-nerd exa xfce4 xfce4-pulseaudio-plugin xfce4-weather-plugin gtk3 --noconfirm
 
-yay -S ttf-material-design-icons-extended nerd-fonts-jetbrains-mono --noconfirm
+yay -S ttf-material-design-icons-extended nerd-fonts-jetbrains-mono deezer --noconfirm
 
 cp -r .config ~/
 cp  .Xresources ~/
