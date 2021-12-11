@@ -24,7 +24,7 @@ monitor =
 monitor-strict = false
 override-redirect = false
 
-bottom = false
+bottom = true
 fixed-center = true
 
 width = 100%
@@ -56,9 +56,9 @@ font-1 = Iosevka Nerd Font:size=13;3
 font-2 = Material Design Icons:style=Bold:size=13;3
 
 
-modules-left = bspwm
+modules-left = polywins
 modules-center = 
-modules-right =  spotify seperator keyboard  seperator volume seperator battery network date
+modules-right =  keyboard  seperator volume seperator battery network date
 
 separator =
 spacing = 0
@@ -110,6 +110,14 @@ compositing-border = over
 ;; Created By Aditya Shakya @adi1090x
 ;;
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/polywins]
+type = custom/script
+exec = ~/.config/polybar/scripts/polywins.sh 2>/dev/null
+format = <label>
+label = %output%
+label-padding = 1
+tail = true
 
 [module/keyboard]
 type = internal/xkeyboard

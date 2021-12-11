@@ -32,8 +32,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# xsetroot -cursor_name left_ptr
+$HOME/.config/polybar/launch.sh &
+picom &
+feh --bg-fill ~/Wallpaper/1.jpg
+xsetroot -cursor_name left_ptr
 setxkbmap -layout us,ru -option grp:alt_shift_toggle
 sxhkd &
-exec startxfce4
-# exec bspwm
+exec xfwm4

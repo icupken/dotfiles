@@ -7,6 +7,7 @@
 
 alias exa='exa -hl'
 alias update='sudo pacman -Syu --noconfirm'
+alias install='sudo pacman -Su --noconfirm'
 
 
 #make st nice
