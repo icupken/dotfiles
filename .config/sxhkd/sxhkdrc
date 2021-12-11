@@ -20,3 +20,7 @@ XF86Audio{LowerVolume,RaiseVolume}
 
 XF86AudioMute
   amixer -q sset Master toggle
+  
+super + p
+	DATE=$(date '+%b%d-%H-%M.png'); \
+	maim --select "/home/icupken/Screenshots/$DATE"
