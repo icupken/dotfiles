@@ -58,7 +58,7 @@ font-2 = Material Design Icons:style=Bold:size=13;3
 
 modules-left = polywins
 modules-center = 
-modules-right =  keyboard  seperator volume seperator battery network date
+modules-right =  spotify seperator keyboard seperator volume seperator battery network date
 
 separator =
 spacing = 0
@@ -207,10 +207,10 @@ ramp-headphones-1 = 
 type = custom/script
 tail = true
 ; prefix symbol is shown before the text
-format-prefix = "  "
+format-prefix = "  "
 format-prefix-font = 2
 format = <label>
-format-foreground = ${color.GREEN}
+format-foreground = ${color.ALTCYAN}
 exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
