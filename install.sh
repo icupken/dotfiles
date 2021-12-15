@@ -9,9 +9,9 @@ echo "Yay installed."
 # ------xfwm4 install----------
 sudo pacman -S alsa-utils wmctrl fd feh maim nvidia ntfs-3g thunar gvfs \
 rofi sxhkd firefox xorg xorg-xinit pulseaudio ttf-jetbrains-mono \
-pavucontrol ttf-iosevka-nerd exa xfwm4 picom dunst okular mousepad --noconfirm
+pavucontrol ttf-iosevka-nerd exa xfwm4 picom dunst okular mousepad playerctl --noconfirm
 
-yay -S polybar ttf-material-design-icons-extended nerd-fonts-jetbrains-mono betterlockscreen --noconfirm
+yay -S polybar ttf-material-design-icons-extended nerd-fonts-jetbrains-mono betterlockscreen zscroll-git --noconfirm
 
 cp -r .config ~/
 cp  .Xresources ~/
