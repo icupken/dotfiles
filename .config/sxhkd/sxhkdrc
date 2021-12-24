@@ -22,5 +22,5 @@ XF86AudioMute
   amixer -q sset Master toggle
   
 super + p
-	DATE=$(date '+%b%d-%H-%M.png'); \
+	DATE=$(date '+%b%d-%H-%M-%S.png'); \
 	maim --select "/home/icupken/Screenshots/$DATE"
