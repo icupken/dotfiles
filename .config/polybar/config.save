@@ -22,7 +22,7 @@ include-file = ~/.config/polybar/colors
 [bar/main]
 monitor =
 monitor-strict = false
-override-redirect = false
+override-redirect = false	
 
 bottom = false
 fixed-center = true
