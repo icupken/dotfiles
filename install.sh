@@ -23,4 +23,5 @@ git clone https://github.com/siduck/st.git
 cd st
 sudo make install
 mkdir ~/Screenshots
+localectl --no-convert set-x11-keymap us,ru "" "" grp:alt_shift_toggle
 echo "Instalation end."
