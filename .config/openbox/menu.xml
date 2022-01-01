@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+  <menu id="root-menu" label="OpenBox 3">
+    <menu id="3" label="Office">
+      <item label="Okular">
+        <action name="Execute">
+          <execute>okular</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="4" label="Science">
+      <item label="bc">
+        <action name="Execute">
+          <execute>st -e bc</execute>
+        </action>
+      </item>
+      <item label="dc">
+        <action name="Execute">
+          <execute>st -e dc</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="19" label="Shells">
+      <item label="GIT">
+        <action name="Execute">
+          <execute>st -e git</execute>
+        </action>
+      </item>
+      <item label="ST">
+        <action name="Execute">
+          <execute>st</execute>
+        </action>
+      </item>
+      <item label="Thunar File Manager">
+        <action name="Execute">
+          <execute>thunar</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="37" label="System">
+      <menu id="36" label="Settings">
+        <item label="File Manager Settings">
+          <action name="Execute">
+            <execute>thunar-settings</execute>
+          </action>
+        </item>
+        <item label="Openbox Configuration Manager">
+          <action name="Execute">
+            <execute>obconf</execute>
+          </action>
+        </item>
+        <item label="Text Editor Settings">
+          <action name="Execute">
+            <execute>mousepad --preferences</execute>
+          </action>
+        </item>
+        <item label="Window Manager">
+          <action name="Execute">
+            <execute>xfwm4-settings</execute>
+          </action>
+        </item>
+        <item label="Window Manager Tweaks">
+          <action name="Execute">
+            <execute>xfwm4-tweaks-settings</execute>
+          </action>
+        </item>
+        <item label="Workspaces">
+          <action name="Execute">
+            <execute>xfwm4-workspace-settings</execute>
+          </action>
+        </item>
+      </menu>
+    </menu>
+    <separator/>
+    <menu id="40" label="OpenBox">
+      <item label="Reconfigure">
+        <action name="Reconfigure"/>
+      </item>
+      <item label="Exit">
+        <action name="Exit"/>
+      </item>
+    </menu>
+    <item label="Restart">
+      <action name="restart"/>
+    </item>
+  </menu>
+</openbox_menu>

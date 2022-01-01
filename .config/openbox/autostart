@@ -1,0 +1,5 @@
+$HOME/.config/polybar/launch.sh &
+picom &
+feh --bg-fill ~/Wallpaper/6.jpg &
+xsetroot -cursor_name left_ptr &
+jetbrains-toolbox &

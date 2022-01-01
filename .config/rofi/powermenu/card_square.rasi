@@ -24,7 +24,7 @@ window {
     text-color:                     @foreground;
     border-radius:                  0px;
     height:                         28.5%;
-    width:                          590;
+    width:                          960;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
