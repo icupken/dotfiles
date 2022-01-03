@@ -12,7 +12,7 @@ st.alpha: 1
 
 ! inner padding
 st.borderpx:    0
-st.font:        Iosevka Nerd Font:style:medium:pixelsize=18
+st.font:        JetBrainsMono Nerd Font:style:medium:pixelsize=18
 
 !! Colors
 
