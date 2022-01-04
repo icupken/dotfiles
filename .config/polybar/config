@@ -191,7 +191,7 @@ ramp-headphones-1 = 
 type = custom/script
 tail = true
 ; prefix symbol is shown before the text
-format-prefix = "  "
+format-prefix = " "
 format-prefix-font = 2
 format = <label>
 format-foreground = ${color.ALTCYAN}

@@ -35,6 +35,8 @@ fi
 $HOME/.config/polybar/launch.sh &
 flameshot &
 picom &
+sxhkd &
+jetbrains-toolbox --minimize &
 feh --bg-fill ~/Wallpaper/6.jpg &
 xsetroot -cursor_name left_ptr &
-exec xfwm4 &
+exec xfwm4

@@ -8,7 +8,7 @@ echo "Yay installed."
 
 # ------xfwm4 install----------
 sudo pacman -S alsa-utils fd feh nvidia f2fs-tools ntfs-3g thunar gvfs \
-rofi firefox xorg xorg-xinit pulseaudio ttf-jetbrains-mono \
+rofi firefox xorg xorg-xinit pulseaudio ttf-jetbrains-mono sxhkd \
 pavucontrol ttf-iosevka-nerd exa xfwm4 picom dunst okular neovim flameshot playerctl --noconfirm
 
 yay -S polybar ttf-material-design-icons-extended nerd-fonts-jetbrains-mono betterlockscreen zscroll-git --noconfirm

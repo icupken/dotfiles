@@ -21,4 +21,3 @@ export PATH="~/.local/bin:$PATH"
 export PATH=$PATH:/path/to/driver/chrome-driver
 export PICO_SDK_PATH=../pico-sdk
 source "$HOME/.cargo/env"
-. "$HOME/.cargo/env"
