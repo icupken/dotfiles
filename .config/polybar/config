@@ -1,4 +1,4 @@
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 ;;
 ;;	    ____        __      __              
 ;;	   / __ \____  / /_  __/ /_  ____ ______
@@ -73,7 +73,7 @@ tray-maxsize = 16
 tray-background = ${color.BACKGROUND}
 tray-offset-x = 0
 tray-offset-y = 0
-tray-padding = 2
+tray-padding = 3
 tray-scale = 1.0
 
 enable-ipc = true
@@ -113,7 +113,7 @@ blacklist-1 = scroll lock
 ; Available tags:
 ;   <label-layout> (default)
 ;   <label-indicator> (default)
-format = <label-layout> <label-indicator>
+format = <label-layout><label-indicator>
 format-prefix = " "
 format-prefix-font = 2
 format-prefix-foreground = ${color.WHITE}
