@@ -1,5 +1,5 @@
 super + e
-	st
+	alacritty
 # program launcher
 super + r
 	.config/rofi/bin/launcher_colorful	
