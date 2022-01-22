@@ -14,7 +14,6 @@ pavucontrol ttf-iosevka-nerd exa xfwm4 picom dunst okular neovim flameshot playe
 yay -S polybar ttf-material-design-icons-extended nerd-fonts-jetbrains-mono betterlockscreen zscroll-git --noconfirm
 
 cp -r .config ~/
-cp  .Xresources ~/
 mkdir -p ~/.local/share/
 cp -r fonts ~/.local/share/
 cp .xinitrc ~/
