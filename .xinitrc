@@ -35,6 +35,7 @@ fi
 
 #$HOME/.config/polybar/launch.sh &
 tint2 &
+nm-applet &
 gxkb &
 picom &
 ulauncher --hide &
