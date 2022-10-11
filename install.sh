@@ -9,9 +9,9 @@ echo "Yay installed."
 # ------xfwm4 install----------
 sudo pacman -S alsa-utils tint2 telegram-desktop fd feh alacritty nvidia f2fs-tools ntfs-3g gvfs \
 firefox xorg xorg-xinit pulseaudio ttf-jetbrains-mono sxhkd hunspell-ru \
-pavucontrol ttf-iosevka-nerd exa xfwm4 picom dunst ulauncher PCManFM-Qt okular helix flameshot --noconfirm
+pavucontrol ttf-iosevka-nerd exa xfwm4 picom dunst pcmanfm-qt okular helix flameshot --noconfirm
 
-yay -S polybar ttf-material-design-icons-extended nerd-fonts-jetbrains-mono betterlockscreen --noconfirm
+yay -S polybar ttf-material-design-icons-extended ulauncher nerd-fonts-jetbrains-mono betterlockscreen --noconfirm
 
 cp -r .config ~/
 mkdir -p ~/.local/share/
