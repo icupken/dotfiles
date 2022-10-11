@@ -32,11 +32,12 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-$HOME/.config/polybar/launch.sh &
-flameshot &
+
+#$HOME/.config/polybar/launch.sh &
+tint2 &
+gxkb &
 picom &
+ulauncher --hide &
 sxhkd &
-jetbrains-toolbox --minimize &
-feh --bg-fill ~/Wallpaper/6.jpg &
-xsetroot -cursor_name left_ptr &
+nitrogen --restore &
 exec xfwm4
