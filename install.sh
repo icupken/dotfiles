@@ -19,5 +19,5 @@ cp -r fonts ~/.local/share/
 cp .xinitrc ~/
 cp .bashrc ~/
 mkdir ~/Screenshots
-localectl --no-convert set-x11-keymap us,ru "" "" grp:alt_shift_toggle
+sudo localectl --no-convert set-x11-keymap us,ru "" "" grp:alt_shift_toggle
 echo "Instalation end."
